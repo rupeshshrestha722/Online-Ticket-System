@@ -1,0 +1,308 @@
+{
+	"id": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+	"name": "online-ticket",
+	"description": "",
+	"order": [
+		"d936f066-c611-203f-384a-17b373069048"
+	],
+	"folders": [
+		{
+			"name": "Booking",
+			"description": "",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"order": [
+				"bd579aa4-7bcc-18e2-53bd-34c74417147f",
+				"458ff454-d02f-342f-74c1-49feb306d0b0"
+			],
+			"owner": "5003608",
+			"folders_order": [],
+			"id": "2b824d97-128a-f47c-06b0-ee493fed77a1"
+		},
+		{
+			"name": "Bus Schedule",
+			"description": "",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"order": [
+				"71c479fb-dca4-5ff0-a33c-5794f3577448",
+				"81a457b9-8e53-9a78-c320-e85e089e17eb",
+				"e6dc792f-044d-b1d4-7453-f7ee720e0248",
+				"8c2e4ca3-6552-2d6b-ce7e-d55e59872648"
+			],
+			"owner": "5003608",
+			"folders_order": [],
+			"id": "29ada2c9-0b04-1dba-a699-10b5a6800ec2"
+		}
+	],
+	"folders_order": [
+		"29ada2c9-0b04-1dba-a699-10b5a6800ec2",
+		"2b824d97-128a-f47c-06b0-ee493fed77a1"
+	],
+	"timestamp": 1647625441680,
+	"owner": "5003608",
+	"public": false,
+	"requests": [
+		{
+			"id": "458ff454-d02f-342f-74c1-49feb306d0b0",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/booking/payment/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Payment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625775362,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2b824d97-128a-f47c-06b0-ee493fed77a1",
+			"rawModeData": "{\n  \"status\": \"KHALTI\"\n\t\n}"
+		},
+		{
+			"id": "71c479fb-dca4-5ff0-a33c-5794f3577448",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/schedules",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Add Bus Schedules",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625443947,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "71c479fb-dca4-5ff0-a33c-5794f3577448",
+			"folder": "29ada2c9-0b04-1dba-a699-10b5a6800ec2",
+			"rawModeData": "{\n  \"busNo\": \"A1\",\n  \"busModel\": \"Royal\",\n  \"noOfSeats\": 50,\n  \"fare\": 240,\n  \"source\": \"Hetauda\",\n  \"destination\": \"Pokhara\",\n  \"departureDate\": \"2019-02-03\",\n  \"arrivalDate\": \"2019-02-03\"\n\n\t\n}"
+		},
+		{
+			"id": "81a457b9-8e53-9a78-c320-e85e089e17eb",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/schedules",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Bus Schedules",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625462873,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "81a457b9-8e53-9a78-c320-e85e089e17eb",
+			"folder": "29ada2c9-0b04-1dba-a699-10b5a6800ec2",
+			"rawModeData": "{\n  \"busNo\": \"A1\",\n  \"busModel\": \"Royal\",\n  \"noOfSeats\": 50,\n  \"fare\": 240,\n  \"source\": \"Hetauda\",\n  \"destination\": \"Pokhara\",\n  \"departureDate\": \"2019-02-03\",\n  \"arrivalDate\": \"2019-02-03\"\n\n\t\n}"
+		},
+		{
+			"id": "8c2e4ca3-6552-2d6b-ce7e-d55e59872648",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/schedules/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Delete Bus Schedules",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625505597,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "29ada2c9-0b04-1dba-a699-10b5a6800ec2",
+			"rawModeData": "{\n  \"busNo\": \"A1\",\n  \"busModel\": \"Royal\",\n  \"noOfSeats\": 50,\n  \"fare\": 240,\n  \"source\": \"Hetauda\",\n  \"destination\": \"Pokhara\",\n  \"departureDate\": \"2019-02-03\",\n  \"arrivalDate\": \"2019-02-03\"\n\n\t\n}"
+		},
+		{
+			"id": "bd579aa4-7bcc-18e2-53bd-34c74417147f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/booking",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Book Bus",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625731706,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2b824d97-128a-f47c-06b0-ee493fed77a1",
+			"rawModeData": "{\n  \"passengerName\": \"Rupesh Shrestha\",\n  \"email\": \"rupesh@email.com\",\n  \"mobileNo\": \"98181818181\",\n  \"remarks\": \"Test\",\n  \"noOfSeats\": 3,\n  \"fare\": \"240\",\n  \"totalFare\": \"700\"\n\t\n}"
+		},
+		{
+			"id": "d936f066-c611-203f-384a-17b373069048",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625633612,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\": \"rupesh\",\n\t\"password\": \"password\"\n}"
+		},
+		{
+			"id": "e6dc792f-044d-b1d4-7453-f7ee720e0248",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjIsXCJmaXJzdE5hbWVcIjpcIlJ1cGVzaFwiLFwibGFzdE5hbWVcIjpcIlNocmVzdGhhXCIsXCJlbWFpbFwiOlwicnVwZXNoQGdtYWlsLmNvbVwiLFwidXNlcm5hbWVcIjpcInJ1cGVzaFwiLFwicm9sZVwiOlwiVVNFUlwiLFwiYm9va2luZ0xpc3RcIjpbXX0iLCJleHAiOjE2NTYyMzU1NDV9.Nrxr8Xid24fIqgbg5g0qW8TylJWY2xHIBXdkgkPtnXYEMcwbUEHi1f7n4d0JCPvv8GBotu-quNqRUBV88fTltw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{BASE_URL}}/schedules/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "f1d14c6a-71ec-e01b-4446-bb0879944c0b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Edit Bus Schedules",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647625490867,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "29ada2c9-0b04-1dba-a699-10b5a6800ec2",
+			"rawModeData": "{\n  \"busNo\": \"A1\",\n  \"busModel\": \"Royal\",\n  \"noOfSeats\": 50,\n  \"fare\": 240,\n  \"source\": \"Hetauda\",\n  \"destination\": \"Pokhara\",\n  \"departureDate\": \"2019-02-03\",\n  \"arrivalDate\": \"2019-02-03\"\n\n\t\n}"
+		}
+	]
+}
