@@ -25,6 +25,7 @@ public class BusScheduleService extends BaseService<BusSchedule, BusScheduleSear
 
     @Override
     protected Page<BusSchedule> searchWithPageable(BusScheduleSearchRequest criteria, Pageable pageable) {
+
         BusSchedule probe = new BusSchedule();
         BeanUtils.copyProperties(criteria, probe);
 
@@ -46,15 +47,21 @@ public class BusScheduleService extends BaseService<BusSchedule, BusScheduleSear
             t.setBusNo(t.getBusNo());
             t.setBusModel(t.getBusModel());
             t.setNoOfSeats(t.getNoOfSeats());
+            t.setFare(t.getFare());
             t.setSource(t.getSource());
             t.setDestination(t.getDestination());
+            t.setDepartureDate(t.getDepartureDate());
+            t.setArrivalDate(t.getArrivalDate());
         }else {
             BusSchedule dbBus = ensureExist(repository, t.getId(), "BusSchedule");
-            t.setBusNo(dbBus.getBusNo());
-            t.setBusModel(dbBus.getBusModel());
-            t.setNoOfSeats(dbBus.getNoOfSeats());
-            t.setSource(dbBus.getSource());
-            t.setDestination(dbBus.getDestination());
+            t.setBusNo(t.getBusNo());
+            t.setBusModel(t.getBusModel());
+            t.setNoOfSeats(t.getNoOfSeats());
+            t.setFare(t.getFare());
+            t.setSource(t.getSource());
+            t.setDestination(t.getDestination());
+            t.setDepartureDate(t.getDepartureDate());
+            t.setArrivalDate(t.getArrivalDate());
         }
 
 
