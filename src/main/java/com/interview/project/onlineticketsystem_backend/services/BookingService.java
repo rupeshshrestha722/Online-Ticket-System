@@ -68,17 +68,17 @@ public class BookingService extends BaseService<Booking, BookingSearchRequest>{
             busScheduleRepository.saveAndFlush(bus);
         }else {
             Booking dbBooking = ensureExist(repository, booking.getId(), "Booking");
-            booking.setPassengerName(dbBooking.getPassengerName());
-            booking.setEmail(dbBooking.getEmail());
-            booking.setMobileNo(dbBooking.getMobileNo());
-            booking.setRemarks(dbBooking.getRemarks());
+            booking.setPassengerName(booking.getPassengerName());
+            booking.setEmail(booking.getEmail());
+            booking.setMobileNo(booking.getMobileNo());
+            booking.setRemarks(booking.getRemarks());
+            booking.setFare(booking.getFare());
             booking.setBus(dbBooking.getBus());
             booking.setUser(dbBooking.getUser());
-            booking.setFare(dbBooking.getFare());
-            booking.setTotalFare(dbBooking.getTotalFare());
-            booking.setNoOfSeats(dbBooking.getNoOfSeats());
+            booking.setTotalFare(booking.getTotalFare());
+            booking.setNoOfSeats(booking.getNoOfSeats());
 
-            BusSchedule bus = busScheduleRepository.getById(booking.getBus().getId());
+            BusSchedule bus = busScheduleRepository.getById(dbBooking.getBus().getId());
             bus.setNoOfSeats(bus.getNoOfSeats() - booking.getNoOfSeats());
             busScheduleRepository.saveAndFlush(bus);
         }

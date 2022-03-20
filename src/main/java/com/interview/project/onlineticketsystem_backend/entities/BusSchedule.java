@@ -18,7 +18,6 @@ import java.util.List;
 @Entity(name = "bus_schedules")
 @Getter
 @Setter
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class)
 public class BusSchedule extends IdentifiableEntity {
 
     /**
@@ -82,7 +81,7 @@ public class BusSchedule extends IdentifiableEntity {
      */
     @OneToMany(mappedBy = "bus", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
-    @JsonManagedReference
+//    @JsonManagedReference
     @JsonIgnore
     private List<Booking> bookingList;
 

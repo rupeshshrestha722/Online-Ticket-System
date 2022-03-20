@@ -78,7 +78,7 @@ public class User extends IdentifiableEntity {
      */
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
-    @JsonManagedReference
+//    @JsonManagedReference
     @JsonIgnore
     private List<Booking> bookingList;
 }

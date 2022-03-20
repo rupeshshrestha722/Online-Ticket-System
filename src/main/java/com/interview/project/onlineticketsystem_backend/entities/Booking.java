@@ -66,9 +66,9 @@ public class Booking extends IdentifiableEntity {
     /**
      * The Bus
      */
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.DETACH)
     @JoinColumn(name = "bus_id", nullable = false)
-    @JsonBackReference("bus")
+//    @JsonBackReference("bus")
     private BusSchedule bus;
 
     /**
@@ -76,7 +76,7 @@ public class Booking extends IdentifiableEntity {
      */
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "user_id", nullable = false)
-    @JsonBackReference("user")
+//    @JsonBackReference("user")
     private User user;
 
     /**
