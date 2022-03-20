@@ -33,7 +33,8 @@ public class BookingService extends BaseService<Booking, BookingSearchRequest>{
      * Create a new instance.
      */
     public BookingService() {
-        super("passengerName", new String[] { "id", "passengerName", "email", "mobileNo"});
+        super("passengerName", new String[] {
+                "id", "passengerName", "email", "mobileNo", "remarks", "noOfSeats", "fare", "totalFare"});
     }
 
     @Override
@@ -76,6 +77,10 @@ public class BookingService extends BaseService<Booking, BookingSearchRequest>{
             booking.setFare(dbBooking.getFare());
             booking.setTotalFare(dbBooking.getTotalFare());
             booking.setNoOfSeats(dbBooking.getNoOfSeats());
+
+            BusSchedule bus = busScheduleRepository.getById(booking.getBus().getId());
+            bus.setNoOfSeats(bus.getNoOfSeats() - booking.getNoOfSeats());
+            busScheduleRepository.saveAndFlush(bus);
         }
     }
 
